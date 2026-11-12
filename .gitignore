@@ -1,0 +1,10 @@
+.env
+dump.rdb
+be/.venv/
+be/var/
+fe/node_modules/
+fe/dist/
+**/__pycache__/
+.pytest_cache/
+playwright-report/
+test-results/

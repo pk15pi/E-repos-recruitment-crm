@@ -1,0 +1,15 @@
+AGENCY_ADMIN = "agency_admin"
+RECRUITER = "recruiter"
+CLIENT_ADMIN = "client_admin"
+CLIENT_HIRING_MANAGER = "client_hiring_manager"
+
+AGENCY_ROLES = {AGENCY_ADMIN, RECRUITER}
+CLIENT_ROLES = {CLIENT_ADMIN, CLIENT_HIRING_MANAGER}
+ALL_MEMBERSHIP_ROLES = AGENCY_ROLES | CLIENT_ROLES
+
+ROLE_LABELS = {
+    AGENCY_ADMIN: "Agency admin",
+    RECRUITER: "Recruiter",
+    CLIENT_ADMIN: "Client admin",
+    CLIENT_HIRING_MANAGER: "Client hiring manager",
+}

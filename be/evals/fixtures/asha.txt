@@ -1,0 +1,33 @@
+Asha Rao
+Bengaluru, India
+asha.rao@example.com | +91 98450 11223
+https://www.linkedin.com/in/asharao
+https://github.com/asharao
+
+Summary
+Backend engineer focused on payments and distributed systems.
+
+Skills
+Python, Django, PostgreSQL, Redis, AWS, Docker
+
+Experience
+Senior Backend Engineer, Northwind Payments — Jan 2020 – Present
+Bengaluru
+Led ledger services.
+
+Software Engineer, Harbour Labs — Mar 2016 – Dec 2019
+Mumbai
+Built APIs.
+
+Education
+B.Tech Computer Science, IIT Bombay — 2012 – 2016
+
+Certifications
+AWS Solutions Architect, Amazon — 2021
+
+Projects
+Ledger Reconciler — Python service matching settlements. https://github.com/asharao/ledger
+
+Languages
+English — Professional
+Hindi — Native
