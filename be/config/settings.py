@@ -199,6 +199,12 @@ DATABASES = {"default": dj_database_url.parse(DATABASE_URL, conn_max_age=60)}
 DATABASES["default"]["ENGINE"] = "django.db.backends.postgresql"
 
 AUTH_USER_MODEL = "accounts.User"
+DJANGO_ADMIN_LOGIN_EMAIL = os.environ.get("DJANGO_ADMIN_LOGIN_EMAIL", "admin@synfowebs.com").strip().lower()
+DJANGO_ADMIN_LOGIN_ALIAS = os.environ.get("DJANGO_ADMIN_LOGIN_ALIAS", "admin").strip()
+AUTHENTICATION_BACKENDS = [
+    "apps.accounts.backends.AdminAliasBackend",
+    "django.contrib.auth.backends.ModelBackend",
+]
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_PASSWORD_VALIDATORS = [
